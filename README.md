@@ -9,6 +9,14 @@ We did not have enough time or resources to cover each sector, so we choose 4 to
 Effects of COVID on CRIME RATE, Vaccination and DEATH RATE,  on Agriculture And on NZ GDP.
 
 
+Install packages:
+
+please run the code below if there are error importing libraries zoo, patchwork and sf.
+
+> install.packages("sf")
+> install.packages("patchwork")
+> install.packages("zoo")
+
 Introduction：
 The covid-19 epidemic is the biggest crisis the world has faced since World War II and has had a huge impact on the world, including people's psychology and livelihoods, economic growth and employment, and national governance. Our team will analyze the impact of the total number of covid cases for vaccinations, crime rate, deaths, agricultural and GDP (Gross Domestic Product) in New Zealand.
 
