@@ -14,11 +14,19 @@ Install packages:
 please run the code below if there are error importing libraries zoo, patchwork and sf.
 
 > install.packages("sf")
+>
 > install.packages("patchwork")
+>
 > install.packages("zoo")
 
 Introduction：
 The covid-19 epidemic is the biggest crisis the world has faced since World War II and has had a huge impact on the world, including people's psychology and livelihoods, economic growth and employment, and national governance. Our team will analyze the impact of the total number of covid cases for vaccinations, crime rate, deaths, agricultural and GDP (Gross Domestic Product) in New Zealand.
+
+How to run:
+Open the ipynb file named data201_merged_notebook, and then click the Run tab on the top left corner to select Run All. You will expect the graphs that have been introduced in report.
+*If it shows the messages like "there is no package called ‘sf’", "there is no package called ‘zoo’" or "there is no package called ‘patchwork’", make sure to uncomment and run install packages commands first before importing libraries. 
+*If "download of package ‘sf’ failed" with message "Timeout of 60 seconds was reached", uncomment and run the code "options(timeout = 600)" on the top.
+
 
 Target:  
 1.	Find the change of crime rate before and after covid, and thus find out how much influence covid has caused on the general safety in New Zealand.
